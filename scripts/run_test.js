@@ -59,6 +59,7 @@ const siteNames = [
   "gensau",
   "gro",
   "hathi",
+  "ilsosgov",
   "irishg",
   "itcadgg",
   "jstor",

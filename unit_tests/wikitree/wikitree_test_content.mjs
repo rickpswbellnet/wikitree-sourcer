@@ -43,6 +43,10 @@ const regressionData = [
     url: "https://www.wikitree.com/index.php?title=Brewster-4803&errcode=saved",
   },
   {
+    caseName: "conrad-4600_read",
+    url: "https://www.wikitree.com/wiki/Conrad-4600",
+  },
+  {
     caseName: "craft-31_read",
     url: "https://www.wikitree.com/wiki/Craft-31",
   },

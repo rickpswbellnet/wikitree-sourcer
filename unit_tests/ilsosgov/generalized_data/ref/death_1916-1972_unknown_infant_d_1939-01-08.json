@@ -1,0 +1,21 @@
+{
+  "sourceOfData": "ilsosgov",
+  "sourceType": "record",
+  "recordType": "DeathRegistration",
+  "name": {
+    "lastName": "UNKNOWN",
+    "firstNames": "INFANT"
+  },
+  "eventDate": {
+    "dateString": "1939-01-08",
+    "qualifier": 1
+  },
+  "deathDate": {
+    "dateString": "1939-01-08",
+    "qualifier": 1
+  },
+  "deathPlace": {
+    "placeString": "Illinois, United States of America"
+  },
+  "hasValidData": true
+}

@@ -130,6 +130,11 @@ const regressionData = [
     url: "https://www.findagrave.com/memorial/118913956/laura-e-buchert",
   },
   {
+    // To test IL death cert search on ilsosgov
+    caseName: "lavina_imry_d_1962",
+    url: "https://www.findagrave.com/memorial/261594189/lavina-imry",
+  },
+  {
     // has ldifferent name in URL to fields
     caseName: "louise_richards_d_1893",
     url: "https://www.findagrave.com/memorial/91226577/l-rich",

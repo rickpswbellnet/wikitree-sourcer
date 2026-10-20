@@ -1,0 +1,34 @@
+{
+  "hasValidData": true,
+  "firstNames": "Lavina",
+  "prefNames": "",
+  "middleNames": "",
+  "lnab": "Conrad",
+  "currentLastName": "Imry",
+  "mothersMaidenName": "Joeckel",
+  "birthDate": "28 Feb 1890",
+  "birthDateStatus": "about",
+  "deathDate": "4 Apr 1962",
+  "deathDateStatus": "none",
+  "birthLocation": "Missouri, United States of America",
+  "deathLocation": "East St. Louis, St. Clair County, Illinois, United States of America",
+  "personGender": "female",
+  "spouses": [],
+  "url": "https://www.wikitree.com/wiki/Conrad-4600",
+  "pageType": "read",
+  "wikiId": "Conrad-4600",
+  "name": "Lavina (Conrad) Imry6Â°",
+  "nicknames": "Lena",
+  "otherLastNames": "Renfro, Bridger, Hunter",
+  "parents": {
+    "father": {
+      "wikiId": "Conrad-4599",
+      "name": "Ludwig L. Conrad"
+    },
+    "mother": {
+      "wikiId": "Joeckel-27",
+      "name": "Christine Elisabeth (Joeckel) Conrad"
+    }
+  },
+  "citation": "WikiTree contributors, \"Lavina (Conrad) Imry (abt.1890-1962),\" WikiTree: The Free Family Tree, (https://www.wikitree.com/wiki/Conrad-4600 : accessed 20 October 2026)."
+}
