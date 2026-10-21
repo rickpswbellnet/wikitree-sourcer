@@ -81,7 +81,10 @@ function extractData(document, url) {
 
   result.recordData = {};
   for (let i = 0; i < tableCells.length; i++) {
-    result.recordData[headerCells[i].textContent.trim()] = tableCells[i].textContent.trim();
+    if (tableCells[i].textContent.trim() !== "-  -" && tableCells[i].textContent.trim() !== "- -") {
+      // drop N/A fields
+      result.recordData[headerCells[i].textContent.trim()] = tableCells[i].textContent.trim();
+    }
   }
 
   result.success = true;
