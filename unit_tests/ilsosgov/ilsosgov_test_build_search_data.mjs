@@ -42,8 +42,8 @@ const regressionData = [
     typeOfSearch: "Deaths",
   },
   {
-    caseName: "death_1916-1972_wikitree_conrad-4600_read",
-    inputPath: "wikitree/generalized_data/ref/conrad-4600_read",
+    caseName: "death_1916-1972_wikitree_conrad-4600_edit",
+    inputPath: "wikitree/generalized_data/ref/conrad-4600_edit",
     typeOfSearch: "Deaths",
   },
 ];

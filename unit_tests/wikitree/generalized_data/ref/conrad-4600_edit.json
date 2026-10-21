@@ -3,6 +3,7 @@
   "sourceType": "profile",
   "name": {
     "firstNames": "Lavina",
+    "prefNames": "Lavina",
     "nicknames": "Lena",
     "otherLastNames": "Renfro, Bridger, Hunter",
     "lastName": "Conrad"
@@ -13,11 +14,11 @@
   "personGender": "female",
   "birthDate": {
     "dateString": "28 Feb 1890",
-    "qualifier": 0
+    "qualifier": 2
   },
   "deathDate": {
     "dateString": "4 Apr 1962",
-    "qualifier": 0
+    "qualifier": 1
   },
   "birthPlace": {
     "placeString": "Missouri, United States of America"
