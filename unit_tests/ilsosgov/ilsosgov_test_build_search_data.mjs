@@ -29,22 +29,22 @@ const regressionData = [
   {
     caseName: "death_1916-1972_imry_lavina_d_1962-04-04",
     inputPath: "ilsosgov/generalized_data/ref/death_1916-1972_imry_lavina_d_1962-04-04",
-    typeOfSearch: "Deaths",
+    typeOfSearch: "deathsPost1915",
   },
   {
     caseName: "death_1916-1972_fg_lavina_imry_d_1962",
     inputPath: "fg/generalized_data/ref/lavina_imry_d_1962",
-    typeOfSearch: "Deaths",
+    typeOfSearch: "deathsPost1915",
   },
   {
     caseName: "death_1916-1972_unkefer_marie_susan_d_1968-09-04",
     inputPath: "ilsosgov/generalized_data/ref/death_1916-1972_unkefer_marie_susan_d_1968-09-04",
-    typeOfSearch: "Deaths",
+    typeOfSearch: "deathsPost1915",
   },
   {
     caseName: "death_1916-1972_wikitree_conrad-4600_edit",
     inputPath: "wikitree/generalized_data/ref/conrad-4600_edit",
-    typeOfSearch: "Deaths",
+    typeOfSearch: "deathsPost1915",
   },
 ];
 

@@ -24,6 +24,7 @@ SOFTWARE.
 
 function buildSearchData(input) {
   const gd = input.generalizedData;
+  const typeOfSearch = input.typeOfSearch;
 
   let fieldData = {};
   // let selectData = {};
@@ -40,30 +41,63 @@ function buildSearchData(input) {
   //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
   let firstName = gd.inferFirstName();
-  //  let middleName = gd.inferMiddleName();
+  //  let middleName = gd.inferMiddleName();  don't use middle name to search
   let lastName = gd.inferLastName();
   let lastNameAtDeath = gd.inferLastNameAtDeath();
+  let personGender = gd.inferPersonGender();
 
   //  let county = gd.inferCounty();
 
   // use the html form input ids for the search fields as fieldData keys
-  if (lastNameAtDeath) {
-    fieldData["lname1"] = lastNameAtDeath;
-  } else if (lastName) {
-    fieldData["lname1"] = lastName;
-  } else {
-    fieldData["lname1"] = "";
+  if (typeOfSearch == "deathsPre1916") {
+    if (lastNameAtDeath) {
+      fieldData["decedent1"] = lastNameAtDeath;
+    } else if (lastName) {
+      fieldData["decedent1"] = lastName;
+    } else {
+      fieldData["decedent1"] = "";
+    }
+    if (firstName) {
+      fieldData["decedent1"] += ", " + firstName;
+    }
+  } else if (typeOfSearch == "deathsPost1915") {
+    if (lastNameAtDeath) {
+      fieldData["lname1"] = lastNameAtDeath;
+    } else if (lastName) {
+      fieldData["lname1"] = lastName;
+    } else {
+      fieldData["lname1"] = "";
+    }
+
+    if (firstName) {
+      fieldData["fname1"] = firstName;
+    } else {
+      fieldData["fname1"] = "";
+    }
+
+    let middleName = ""; // use empty middle name for search
+    fieldData["mname1"] = middleName;
+  } else if (typeOfSearch == "marriages") {
+    if (personGender == "male") {
+      if (lastName) {
+        fieldData["gname1"] = lastName;
+      } else {
+        fieldData["gname1"] = "";
+      }
+      if (firstName) {
+        fieldData["gname1"] += ", " + firstName;
+      }
+    } else if (personGender == "female") {
+      if (lastName) {
+        fieldData["bname1"] = lastName;
+      } else {
+        fieldData["bname1"] = "";
+      }
+      if (firstName) {
+        fieldData["bname1"] += ", " + firstName;
+      }
+    }
   }
-
-  if (firstName) {
-    fieldData["fname1"] = firstName;
-  } else {
-    fieldData["fname1"] = "";
-  }
-
-  let middleName = ""; // use empty middle name for search
-  fieldData["mname1"] = middleName;
-
   //console.log("fieldData is:");
   //console.log(fieldData);
 
