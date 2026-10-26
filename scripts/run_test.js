@@ -56,6 +56,7 @@ const siteNames = [
   "gedbas",
   "gedenkbuch",
   "geneteka",
+  "genquebec",
   "gensau",
   "gro",
   "hathi",
@@ -81,6 +82,7 @@ const siteNames = [
   "openarch",
   "panb",
   "ppnz",
+  "prdh",
   "psuk",
   "qldbdm",
   "riksark",
@@ -97,9 +99,11 @@ const siteNames = [
   "wiewaswie",
   "wikipedia",
   "wikitree",
+  "wol",
+  "wtahdstn",
   "yadvashem",
   "yorkshireburials",
-  "youtube",
+  "youtube"
 ];
 
 function testSuiteEnabled(parameters, testSuiteName) {
